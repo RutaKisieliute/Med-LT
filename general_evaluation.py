@@ -12,8 +12,8 @@ from pathlib import Path
 from typing import Dict, List, Tuple
 
 # CONFIGURATION
-INPUT_CSV = Path(r"C:\\Users\\Rutos\\Desktop\\DATA2\\evaluation_scripts\\gemma4\\trained_path_test_other_predictions.csv")
-OUTPUT_DIR = Path(r"gemma4-path-other-trained_results")
+INPUT_CSV = Path(r"input_csv_file")
+OUTPUT_DIR = Path(r"trained_results_dir")
 
 # BLEU, ROUGE AND METEOR SETTINGS
 MULTI_CORRECT_METRIC = "rougeL_f1"
