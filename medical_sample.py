@@ -10,8 +10,8 @@ from pathlib import Path
 from typing import Dict, List
 
 # CONFIGURATIONS
-INPUT_CSV = Path(r"C:\\Users\\Rutos\\Desktop\\DATA2\\evaluation_scripts\\medemma\\trained_pathvqa_test_others_predictions.csv")
-OUTPUT_CSV = Path(r"100\\medgemma-trained-path-other-random_answers_100.csv")
+INPUT_CSV = Path(r"input_csv_path")
+OUTPUT_CSV = Path(r"random_answers_100.csv")
 
 SAMPLE_SIZE = 100
 RANDOM_SEED = 42
