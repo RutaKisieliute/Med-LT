@@ -10,8 +10,8 @@ from pathlib import Path
 from typing import Dict, List
 
 # CONFIGURATIONS
-INPUT_CSV = Path(r"C:\\Users\\Rutos\\Desktop\\DATA2\\evaluation_scripts\\gemma4\\trained_path_test_other_predictions.csv")
-OUTPUT_CSV = Path(r"gema4-trained-path-other-random_predicted_answers_60.csv")
+INPUT_CSV = Path(r"input_csv_path")
+OUTPUT_CSV = Path(r"random_predicted_answers_60.csv")
 
 SAMPLE_SIZE = 60
 RANDOM_SEED = 42
